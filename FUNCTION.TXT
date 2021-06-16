@@ -1,0 +1,27 @@
+DONT FORGET TO SET YOUR TIMEZONE ON SETTING
+======= USE THIS FUNCTION ON LETTER AND ATTACHMENT ==========
+<%= NAME %>
+<%= COMPANYNAME %>
+<%= EMAIL %>
+<%= RANDOMIP %>
+<%= RANDOMCOUNTRY %>
+<%= DATE %>
+<%= TIME %>
+<%- LOGO %>
+<%= DATETOMORROW %>
+<%= YOUR_RANDOM_NUMBER %>
+<%= YOUR_RANDOM_STRING %>
+===============================================================
+=================== USE THIS FUNCTION FOR SUBJECT,FROM MAIL AND FROM NAME, AND ATTACHMENT ===========
+<RANDSTRING>
+<COMPANYNAME>
+<DOMAIN>
+<NAME>
+<RANDOMCITY>
+<RANDOMCOUNTRY>
+<TIME>
+<DATETOMORROW>
+<AUTOFROMMAIL> // AUTOMATIC SET FROM MAIL FROM USERNAME SMTP
+
+IF YOU DONT UNDERSTAND YOU CAN CONTACT US
+======================================================================================================

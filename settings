@@ -1,0 +1,69 @@
+#!/usr/bin/env node
+const smtp =[
+
+ 
+ {
+		host: "FILL IN HOST",
+		username: "FILL IN USERNAME",
+		password: "FILL IN PASSWORD",
+		port: 587,
+        secure:true // true for connection secure
+	},
+
+]
+
+let setup ={
+    key                 :"FILL IN YOUR LICENSE", //enter your key here
+    mail_priority       : "high", // high , medium, low
+    sleep_time          : 0,// 1000 for 1 second (can setup 0)
+
+    from_name           :"FILL IN YOUR FROM NAME",
+    mail_subject        :"FILL IN YOUR MAIL SUBJECT",
+    from_mail           :"<SAME>",
+
+    email_test          :false, // true, false
+    test_every          :2,
+    email_destination   :"NOIR@NOIR.COM",
+
+    letter              :"letter.html",
+
+    attachmenthtml     : true,
+    attachmentName      :"attachment.html", // file name Attachment
+    attachment_file_name: "attachment.html",
+    mailist             :"mailist.txt", // file name mailist
+
+    // logo attachtment
+    logoAttachment    : true, // true false
+    defaultLogo       : "https://www.vhv.rs/dpng/d/574-5746384_office-365-logo-official-microsoft-azure-logo-hd.png"
+
+  
+}
+
+const setup_time_date = {
+    time_zone           :"Europe/Madrid", //https://en.wikipedia.org/wiki/List_of_tz_database_time_zones -> list all of time zone in the world
+    timezone_name       :"long", // "long" and "short"
+    time_format_lang    :"en",
+}
+
+//generate your number random 
+const generate_random_number = [
+    {
+        name:"RANDNUM3",
+        lengt_value:3
+    },
+]
+
+const generate_random_string = [
+    {
+        name:"random_string_3",
+        lengt_value:3,
+        type:"UPPERCASE" // "UPPERCASE","LOWERCASE","RANDOM"
+    },
+    {
+        name:"random_string_4",
+        lengt_value:4,
+        type:"LOWERCASE" // "UPPERCASE","LOWERCASE","RANDOM"
+    },
+]
+
+module.exports = {smtp,setup, generate_random_number, generate_random_string, setup_time_date};

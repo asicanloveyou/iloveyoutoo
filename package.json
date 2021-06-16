@@ -1,0 +1,33 @@
+{
+  "name": "ares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "noir": "Diana"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "center-align": "^1.0.1",
+    "cfonts": "^2.9.1",
+    "cli-spinners": "^2.5.0",
+    "colors": "^1.4.0",
+    "console-stamp": "^0.2.9",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "email-to-name": "^2.0.2",
+    "form-data": "^4.0.0",
+    "inquirer": "^7.3.3",
+    "loading-cli": "^1.1.0",
+    "nodemailer": "^6.4.18",
+    "random-ipv4": "^1.0.2",
+    "random-places": "^1.0.13",
+    "url-exists": "^1.0.3"
+  }
+}
